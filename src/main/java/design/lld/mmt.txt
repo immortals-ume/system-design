@@ -1,0 +1,27 @@
+The system should be capable of ranking hotels for a user query (e.g., destination, dates, filters).
+The ranking logic may vary based on user context:
+  Logged-out user → Ranking based on device info, IP, etc.
+  Logged-in user → Ranking personalized by browsing history.
+  Logged-in with bookings → Further personalized using booking history.
+
+  Additionally:
+
+  The ranking algorithm should be pluggable and versioned (i.e., easily changeable or upgradable without major code changes).
+  Multiple ranking algorithms may run simultaneously (e.g., A/B testing or based on input criteria).
+  The system should be low latency and capable of handling high QPS (queries per second).
+
+Tasks:
+
+  Data Design:
+  What data do you need for ranking (hotel data, user data, real-time signals)?
+  How would you design the storage schema (DB tables, cache, etc.) for this data?
+  How would you handle real-time updates (e.g., price or availability changes)?
+
+  Low-Level Design:
+  Design class interfaces and method signatures for a ranking engine that can handle multiple ranking algorithms.
+  How would you dynamically pick the right algorithm based on user context?
+  How would you structure the code to add a new ranking algorithm with minimal changes?
+
+  Bonus:
+  How would you log ranking results for debugging or analytics?
+  How would you monitor and measure the effectiveness of ranking algorithms?

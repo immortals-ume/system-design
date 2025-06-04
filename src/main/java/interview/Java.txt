@@ -1,0 +1,65 @@
+🚀 Java 8 to Java 17 Features
+🔹 Java 8
+Lambda Expressions: Enables functional programming by allowing you to pass behavior as parameters.
+
+Stream API: Facilitates functional-style operations on collections and sequences of elements.
+
+Functional Interfaces: Interfaces with a single abstract method, used primarily for lambda expressions.
+
+Default Methods: Allows interfaces to have methods with default implementations.
+
+Optional Class: Provides a container object which may or may not contain a non-null value, helping to avoid NullPointerException.
+
+Date and Time API: Introduces a new, comprehensive date and time API (java.time).
+
+🔹 Java 9
+Module System (Project Jigsaw): Introduces modules to encapsulate packages and manage dependencies.
+
+JShell: Provides an interactive tool for learning and prototyping Java code.
+
+Improved Javadoc: Enhances documentation with search capabilities and better HTML5 support.
+
+Stream API Enhancements: Adds methods like takeWhile, dropWhile, and iterate to the Stream API.
+
+🔹 Java 10
+Local-Variable Type Inference (var): Allows the compiler to infer the type of local variables.
+
+Application Class-Data Sharing: Improves startup and footprint by sharing common class metadata across applications.
+
+🔹 Java 11
+String Methods: Adds methods like isBlank(), lines(), strip(), repeat().
+
+HTTP Client API: Introduces a new HTTP client for HTTP/1.1 and HTTP/2.
+
+Launch Single-File Source-Code Programs: Allows running Java source code files directly without compilation.
+
+🔹 Java 12
+Switch Expressions (Preview): Enhances the switch statement to be used as an expression.
+
+Compact Number Formatting: Provides localized formats for numbers.
+
+🔹 Java 13
+Text Blocks (Preview): Introduces multi-line string literals for easier string formatting.
+
+🔹 Java 14
+Records (Preview): Provides a compact syntax for declaring classes that are transparent holders for shallowly immutable data.
+
+Pattern Matching for instanceof (Preview): Simplifies the common pattern of using instanceof and casting.
+
+🔹 Java 15
+Sealed Classes (Preview): Allows classes or interfaces to restrict which other classes or interfaces may extend or implement them.
+
+🔹 Java 16
+Records: Becomes a standard feature, providing a concise way to model data.
+
+Pattern Matching for instanceof: Standardizes the feature introduced in Java 14.
+
+🔹 Java 17 (LTS)
+Sealed Classes: Standardizes the feature to control class hierarchies.
+
+Pattern Matching for switch (Preview): Enhances the switch statement with pattern matching capabilities.
+
+New macOS Rendering Pipeline: Introduces a new rendering pipeline for macOS using the Apple Metal API.
+
+Deprecation and Removal of Legacy Features: Removes older features like the Applet API and the Security Manager.
+

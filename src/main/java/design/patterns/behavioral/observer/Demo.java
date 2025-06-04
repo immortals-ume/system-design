@@ -7,7 +7,7 @@ public class Demo {
         editor.events.subscribe("save", new EmailNotificationListener("admin@example.com"));
 
         try {
-            editor.openFile("test.txt");
+            editor.openFile("mmt.txt");
             editor.saveFile();
         } catch (Exception e) {
             e.printStackTrace();

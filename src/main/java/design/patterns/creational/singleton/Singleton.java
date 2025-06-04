@@ -24,12 +24,12 @@ public final class Singleton {
         System.out.println("Hello, I am a SingletonClass!");
     }
 
-    public class Main {
-        public static void main(String[] args) {
+
+    public static void main(String[] args) {
 
             Singleton singleton = Singleton.getInstance(UUID.randomUUID().toString());
 
             singleton.showMessage();
-        }
     }
+
 }
