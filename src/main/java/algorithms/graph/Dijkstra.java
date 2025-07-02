@@ -48,7 +48,7 @@ public class Dijkstra {
         // Priority queue to pick the node with smallest distance
         PriorityQueue<Map.Entry<String, Integer>> pq = new PriorityQueue<>(
                 Comparator.comparingInt(Map.Entry::getValue)
-        );
+        ); //A-B
         pq.add(new AbstractMap.SimpleEntry<>(start, 0));
 
         Set<String> visited = new HashSet<>();
